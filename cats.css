@@ -8,7 +8,12 @@ body {
   margin: 0;
   font: 14px/1.4 monospace;
   color: #f3f3f3;
-  background: radial-gradient(circle at 20% 20%, #414a5f, #151923 60%, #0b0d13 100%);
+  background-image:
+    linear-gradient(rgba(9, 12, 18, 0.55), rgba(9, 12, 18, 0.55)),
+    url("cats-background.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
   overflow: hidden;
 }
