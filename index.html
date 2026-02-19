@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OMFGCATS</title>
+    <link rel="stylesheet" href="cats.css" />
+  </head>
+  <body>
+    <div id="overlay" class="overlay" onclick="startCats()">
+      <button class="play-button" aria-label="Start cats" onclick="startCats(); return false;">
+        Start Cats
+      </button>
+    </div>
+
+    <audio id="omfgaudio" loop>
+      <source src="cats.mp3" type="audio/mpeg" />
+    </audio>
+
+    <main id="track" aria-hidden="true"></main>
+
+    <footer id="footer">
+      <div id="footer-left">[ omfgcats ] [ pure html/css/js ]</div>
+      <div id="runtime">Cats have been running for 0 seconds.</div>
+      <div id="footer-right">[ add cats.mp3 for music ]</div>
+    </footer>
+
+    <script src="js/wat.js"></script>
+  </body>
+</html>
